@@ -249,7 +249,7 @@ img {
 
 /* ===== ABOUT =====*/
 section.about {
-  padding: 10vh 15px 20vh 15px; /* Reduced top padding */
+  padding: 3vh 5px 3vh 5px; /* Reduced top padding */
 }
 .about-container {
   row-gap: 2rem;
