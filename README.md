@@ -1,2 +1,0 @@
-# darshitapandey.github.io
-Portfolio
