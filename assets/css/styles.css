@@ -281,11 +281,13 @@ section.about {
 }
 
 .skills-data {
-  display: block; /* Changed from flex to block to align items in a column */
+  display: block; /* Ensure this is block to stack each skill */
+  width: 100%; /* Full width */
   padding: 0.5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: 0.5rem;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  text-align: left; /* Align text to the left */
 }
 
 .skills-icon {
@@ -302,10 +304,9 @@ img.man-icons {
 }
 
 .skills-names {
-  display: block; /* Change to block */
+  display: block; /* Ensure this is block to stack each skill */
   width: 100%; /* Full width */
-  margin-bottom: 10px; /* Space between rows */
-  text-align: left; /* Optional: align text to the left */
+  text-align: left; /* Align text to the left */
 }
 
 .skills-bar {
@@ -356,6 +357,7 @@ img.man-icons {
 .skills-img {
   border-radius: 0.5rem;
 }
+
 
 
 /* ===== Projects =====*/
